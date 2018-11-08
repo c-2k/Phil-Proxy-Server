@@ -1,0 +1,24 @@
+{
+  "name": "phil-proxy-server",
+  "version": "1.0.0",
+  "description": "proxy for homestead",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pckessel/Phil-Proxy-Server.git"
+  },
+  "author": "Phil Kessel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pckessel/Phil-Proxy-Server/issues"
+  },
+  "homepage": "https://github.com/pckessel/Phil-Proxy-Server#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
